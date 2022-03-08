@@ -1,7 +1,7 @@
 .firstHeader {
   background-color: #1CD1B0;
   height: 38px;  
-  padding-left: 10px; 
+  padding-left: 29px;  
   display: flex;
   justify-content: flex-start; 
   align-items: center; 
@@ -22,7 +22,7 @@
 
 .heroisTitle {
   font-size: 3.2rem; 
-  margin-left: 10px; 
+  margin-left: 15px;   
 }
 
 .container-home {
@@ -124,11 +124,50 @@
   display: flex;
   justify-content: flex-start;
   align-items: center; 
-  padding-left: 15px; 
+  padding-left: 25px;   
 } 
 
 .LinkBat {
   text-decoration: none; 
   color: white;  
+}
+
+
+@media(max-width: 410px) { 
+  .cardHerois {
+    width: 99%; 
+    margin-right: 0px; 
+  } 
+
+  .cardHeroisTwo {
+    width: 99%; 
+    margin-right: 0px; 
+  }
+
+  .cardHeroisChildOne{ 
+    width: 99%;   
+    margin-right: 0px;   
+  } 
+
+  .cardHeroisChildTwo{ 
+    width: 99%;   
+    margin-right: 0px; 
+  }
+
+  .cardHeroisChildThree {
+    width: 99%;   
+    margin-right: 0px; 
+  } 
+}
+
+@media(max-width: 868px) { 
+  .container-home {
+    flex-direction: column; 
+  }
+
+  .cardHerois {
+    margin-right: 0;
+    margin-bottom: 30px;   
+  }
 }
 
