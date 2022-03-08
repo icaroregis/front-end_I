@@ -1,0 +1,47 @@
+.firstHeader {
+  background-color: #1CD1B0;
+  height: 38px;  
+  padding-left: 10px; 
+  display: flex;
+  justify-content: flex-start; 
+  align-items: center; 
+}
+
+.containerSuperHerois {
+  background-color: #00669F;   
+  height: 101px; 
+  padding-left: 10px; 
+  display: flex;
+  justify-content: flex-start; 
+  align-items: center; 
+  
+}
+
+.heroisTitle {
+  font-size: 4rem
+}
+
+.container-home {
+  margin: 87px auto;   
+  display: flex;
+  justify-content: center;
+  align-items: center;  
+}
+
+.cardHerois {
+  margin-right: 86px;  
+}
+
+.cardHeroisChildOne{
+  width: 374px;
+  height: 217.81px;  
+  background-color: red; 
+  border-top-left-radius: 20px; 
+  border-top-right-radius: 20px; 
+}
+
+.cardHeroisChildTwo {
+  width: 374px;
+  height: 379.2px; 
+  background-color: #F3F3F3;   
+}
