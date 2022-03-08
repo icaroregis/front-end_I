@@ -44,4 +44,33 @@
   width: 374px;
   height: 379.2px; 
   background-color: #F3F3F3;   
+  padding: 5px 
 }
+
+.coracao {
+  width: 10%; 
+  margin-top: 20px;
+  margin-left: 20px;  
+}
+ 
+.cardHeroisChildOne { 
+  background: url("../assets/imgs/plano_de_fundo_batman.png.png"); 
+}
+
+.containerCoracao {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center; 
+}
+
+.circle {
+  position: relative; 
+  width: 138px;
+  height: 138px; 
+  border-radius: 50%;  
+  margin-top: 100px;
+  margin-left: auto;
+  margin-right: auto; 
+  background-color: red;      
+}
+
