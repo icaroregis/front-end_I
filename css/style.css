@@ -134,6 +134,14 @@
 
 
 @media(max-width: 410px) { 
+  .heroisTitle {
+    font-size: 2rem; 
+  }
+
+  .containerFooter {
+    font-size: .9rem; 
+  }
+
   .cardHerois {
     width: 99%; 
     margin-right: 0px; 
